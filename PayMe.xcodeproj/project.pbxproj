@@ -15,6 +15,10 @@
 		B19FBD7526C587A500FA5A7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19FBD7326C587A500FA5A7F /* LaunchScreen.storyboard */; };
 		B19FBD8026C587A500FA5A7F /* PayMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FBD7F26C587A500FA5A7F /* PayMeTests.swift */; };
 		B19FBD8B26C587A600FA5A7F /* PayMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FBD8A26C587A600FA5A7F /* PayMeUITests.swift */; };
+		B19FBD9926C58C8B00FA5A7F /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FBD9826C58C8B00FA5A7F /* RoundedButton.swift */; };
+		B19FBD9C26C5AC6F00FA5A7F /* CalculationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FBD9B26C5AC6F00FA5A7F /* CalculationsViewController.swift */; };
+		B19FBD9F26C5AE0800FA5A7F /* Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FBD9E26C5AE0800FA5A7F /* Calculation.swift */; };
+		B19FBDA126C5AE8D00FA5A7F /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FBDA026C5AE8D00FA5A7F /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		B19FBD8626C587A600FA5A7F /* PayMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19FBD8A26C587A600FA5A7F /* PayMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMeUITests.swift; sourceTree = "<group>"; };
 		B19FBD8C26C587A600FA5A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19FBD9826C58C8B00FA5A7F /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		B19FBD9B26C5AC6F00FA5A7F /* CalculationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationsViewController.swift; sourceTree = "<group>"; };
+		B19FBD9E26C5AE0800FA5A7F /* Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculation.swift; sourceTree = "<group>"; };
+		B19FBDA026C5AE8D00FA5A7F /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 		B19FBD6726C587A400FA5A7F /* PayMe */ = {
 			isa = PBXGroup;
 			children = (
+				B19FBD9D26C5ADFD00FA5A7F /* Models */,
+				B19FBD9A26C5AC3800FA5A7F /* Controllers */,
 				B19FBD6826C587A400FA5A7F /* AppDelegate.swift */,
 				B19FBD6A26C587A400FA5A7F /* SceneDelegate.swift */,
 				B19FBD6C26C587A400FA5A7F /* ViewController.swift */,
@@ -106,6 +116,7 @@
 				B19FBD7126C587A500FA5A7F /* Assets.xcassets */,
 				B19FBD7326C587A500FA5A7F /* LaunchScreen.storyboard */,
 				B19FBD7626C587A500FA5A7F /* Info.plist */,
+				B19FBD9826C58C8B00FA5A7F /* RoundedButton.swift */,
 			);
 			path = PayMe;
 			sourceTree = "<group>";
@@ -126,6 +137,23 @@
 				B19FBD8C26C587A600FA5A7F /* Info.plist */,
 			);
 			path = PayMeUITests;
+			sourceTree = "<group>";
+		};
+		B19FBD9A26C5AC3800FA5A7F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B19FBD9B26C5AC6F00FA5A7F /* CalculationsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B19FBD9D26C5ADFD00FA5A7F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B19FBD9E26C5AE0800FA5A7F /* Calculation.swift */,
+				B19FBDA026C5AE8D00FA5A7F /* Contact.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,9 +287,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B19FBD9C26C5AC6F00FA5A7F /* CalculationsViewController.swift in Sources */,
+				B19FBD9F26C5AE0800FA5A7F /* Calculation.swift in Sources */,
 				B19FBD6D26C587A400FA5A7F /* ViewController.swift in Sources */,
 				B19FBD6926C587A400FA5A7F /* AppDelegate.swift in Sources */,
 				B19FBD6B26C587A400FA5A7F /* SceneDelegate.swift in Sources */,
+				B19FBD9926C58C8B00FA5A7F /* RoundedButton.swift in Sources */,
+				B19FBDA126C5AE8D00FA5A7F /* Contact.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
