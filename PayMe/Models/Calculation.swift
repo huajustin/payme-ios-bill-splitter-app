@@ -22,23 +22,29 @@ class Calculation {
     func getSplitPrice() -> Double {
         return price / Double(contacts.count)
     }
+    
+    func getRemainingPrice() -> Double {
+        let contactsPaid: Int = contacts.filter { $0.paid }.count
+        
+        return price - (Double(contactsPaid) * getSplitPrice())
+    }
 }
 
-class Calculations {
+class CalculationList {
     var calculations: Array<Calculation>
     
     // Singleton instance
-    static let sharedInstance = Calculations(calculations: [])
+    static let sharedInstance = CalculationList(calculations: [])
     
-    init(calculations: [Calculation]) {
+    private init(calculations: [Calculation]) {
         self.calculations = calculations
     }
     
-    static func getCalculations() -> Array<Calculation> {
-        return sharedInstance.calculations;
+    func getCalculations() -> Array<Calculation> {
+        return CalculationList.sharedInstance.calculations;
     }
     
-    static func addCalculation(calculation: Calculation) {
-        sharedInstance.calculations.append(calculation)
+    func addCalculation(calculation: Calculation) {
+        CalculationList.sharedInstance.calculations.append(calculation)
     }
 }

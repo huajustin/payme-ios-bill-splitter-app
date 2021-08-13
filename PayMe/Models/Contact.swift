@@ -27,4 +27,8 @@ class Contact {
     func setToPaid() {
         self.paid = true
     }
+    
+    func setToUnpaid() {
+        self.paid = false
+    }
 }

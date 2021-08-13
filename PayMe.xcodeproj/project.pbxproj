@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1471E0E26C6E95100E22B12 /* CalculationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1471E0D26C6E95100E22B12 /* CalculationViewController.swift */; };
 		B19FBD6926C587A400FA5A7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FBD6826C587A400FA5A7F /* AppDelegate.swift */; };
 		B19FBD6B26C587A400FA5A7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FBD6A26C587A400FA5A7F /* SceneDelegate.swift */; };
 		B19FBD6D26C587A400FA5A7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19FBD6C26C587A400FA5A7F /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B1471E0D26C6E95100E22B12 /* CalculationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationViewController.swift; sourceTree = "<group>"; };
 		B19FBD6526C587A400FA5A7F /* PayMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B19FBD6826C587A400FA5A7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B19FBD6A26C587A400FA5A7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				B19FBD9B26C5AC6F00FA5A7F /* CalculationsViewController.swift */,
+				B1471E0D26C6E95100E22B12 /* CalculationViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1471E0E26C6E95100E22B12 /* CalculationViewController.swift in Sources */,
 				B19FBD9C26C5AC6F00FA5A7F /* CalculationsViewController.swift in Sources */,
 				B19FBD9F26C5AE0800FA5A7F /* Calculation.swift in Sources */,
 				B19FBD6D26C587A400FA5A7F /* ViewController.swift in Sources */,
